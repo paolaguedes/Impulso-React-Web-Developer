@@ -1,0 +1,30 @@
+@media (max-width: 800px) {
+
+    .container {
+        flex-direction: column;
+    }
+    
+    .c-filme {
+        background-size: 100% 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 426px) {
+
+    .container__link {
+        font-size: 1em;
+    }
+
+    .c-filme__content {
+        padding: 1rem 1.5rem;
+    }
+
+    
+.c-filme__btn {
+    padding: 1rem;
+    font-size: 1.4em;
+}
+
+}

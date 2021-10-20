@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <!-- css -->
+    <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+    <link rel='stylesheet' type='text/css' href='./style/header.css'>
+    <link rel='stylesheet' type='text/css' href='./style/hero.css'>
+    <link rel='stylesheet' type='text/css' href='./style/carrosel.css'>
+    <!-- css responsivo -->
+    <link rel='stylesheet' type='text/css' href='./style/media.css'>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!-- owl css -->
+    <link rel='stylesheet' type='text/css' href='./style/owl/owl.carousel.min.css'>
+    <link rel='stylesheet' type='text/css' href='./style/owl/owl.theme.default.min.css'>
+</head>
+<body>
+    <header>
+        <section class="container">
+            <img class="container__logo" src="./img/logo.svg" alt="">
+            <nav class="container__nav" >
+                <a class="container__link" href="#">Inicio</a>
+                <a class="container__link"  href="#">Séries</a>
+                <a class="container__link"  href="#">Filmes</a>
+                <a class="container__link"  href="#">Documentários</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="c-filme">
+            <article class="c-filme__content">
+                <p class="c-filme__sub">Original <span class="c-filme--red">Netflix</span></p>
+                <h1 class="c-filme__titulo">You</h1>
+                <p class="c-filme__descricao">
+                    You é uma série de TV norte-americana produzida originalmente para Netflix. A história acompanha Joe, um gerente de livrarias que conhece uma aspirante a escritora e usa a internet e as mídias sociais como ferramentas para reunir as informações pessoais para se aproximar dela e também para fazer a mulher dos seus sonhos se apaixonar por ele.
+                </p>
+                <div>
+                   <a class="c-filme__btn" href="https://www.netflix.com"> <i class="fas fa-play c-filme__icon"></i>Assistir agora</a>
+                    <a class="c-filme__btn"  href="https://www.imdb.com/title/tt7335184/"><i class="fas fa-info-circle c-filme__icon"></i>Mais informações</a>
+                </div>
+            </article>
+        </section>
+        <section class="carossel">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="carrossel__img" src="./img/img1.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img2.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img3.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img4.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img5.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img6.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img7.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img8.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img9.jpg" alt=""></div>
+                <div class="item"><img class="carrossel__img" src="./img/img10.jpg" alt=""></div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+        <!-- js -->
+        <script type='text/javascript' src='./js/owl/jquery.min.js'></script>
+        <script type='text/javascript' src='./js/owl/owl.carousel.min.js'></script>
+        <script type='text/javascript' src='./js/owl/main.js'></script>
+</body>
+</html>
