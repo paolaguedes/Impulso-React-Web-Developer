@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Russo+One&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    font-family: 'Russo One', sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.bg {
+    background: url(../img/background.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom:0;
+    background: url(../img/dino.png);
+}
+
+.cactus {
+    position: absolute;
+    bottom: 0;
+    left: 1000px;
+    width: 60px;
+    height: 60px;
+    background: url(../img/cactus.png);
+}
+
+.game-over-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-over {
+    font-size: 5rem;
+    background-image: linear-gradient(rgb(24, 24, 24),rgb(27, 27, 27),rgb(65, 65, 65), rgb(90, 90, 90)) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.btn-game-over {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(27, 27, 27);
+    border-radius: 10px;
+}
